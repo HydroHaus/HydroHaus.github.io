@@ -9,19 +9,23 @@
             font-family: 'Montserrat', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
         }
 
         header {
-            background-color: #00e28bf8;
+            background-color: #1E152A;
             color: #fff;
             padding: 1em;
             text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
 
         header img {
-            max-width: 200px; /* Adjust the size as needed */
+            max-width: 150px; /* Adjust the size as needed */
             height: auto;
+            border-radius: 0%;
         }
 
         section {
@@ -30,16 +34,28 @@
             padding: 2em;
             background-color: #fff;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
 
         h1, h2 {
-            color: #00e28bf8;
+            color: #35C585;
         }
 
         code {
-            background-color: #f8f8f8;
+            background-color: #f0f0f0;
             padding: 0.2em 0.4em;
             border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+        }
+
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 0.5em;
         }
 
         ul {
@@ -56,43 +72,47 @@
 
     <header>
         <img src="hydrohaus.png" alt="HydroHaus Logo"> 
-        <h1>HydroHaus Technical Documentation</h1>
+        <h1>Technical Documentation</h1>
     </header>
 
     <section>
-        <h2>About HydroHaus</h2>
+        
+        <centre><img src="Greenhouse_intelligence.png" alt="Greenhouse Intelligence"></centre>
+
+        <h2>What do we do?</h2>
         <p>
-            HydroHaus is an advanced hydroponic greenhouse designed for optimal plant growth. It combines cutting-edge technology with sustainable practices to provide an efficient and eco-friendly solution for cultivating a variety of crops.
+            Efficiently nurturing crops in a self-regulating hydroponic greenhouse, optimizing growth/health, and conserving power through intelligent sensor and actuator control.
         </p>
 
-        <h2>Installation</h2>
+        <h2>Hydroponics</h2>
         <p>
-            Follow the steps below to install HydroHaus in your location:
+            Embracing hydroponic cultivation using constant waterflow for resource-efficient farming.
         </p>
-        <ol>
-            <li>Choose a suitable site for the greenhouse.</li>
-            <li>Assemble the greenhouse frame according to the provided instructions.</li>
-            <li>Install the hydroponic system and connect it to the water and nutrient supply.</li>
-            <li>Configure the control panel for environmental parameters.</li>
-        </ol>
 
-        <h2>Usage</h2>
+        <h2>Conserve Energy</h2>
         <p>
-            HydroHaus comes with a user-friendly interface and automated controls. Here are some key features and usage guidelines:
+            Implementing cutting-edge energy conservation strategies to conserve as much energy as possible.
         </p>
-        <ul>
-            <li>Monitor and adjust temperature, humidity, and nutrient levels through the control panel.</li>
-            <li>Receive real-time notifications and alerts for any anomalies.</li>
-            <li>Refer to the detailed documentation for troubleshooting and maintenance.</li>
-        </ul>
 
-        <h2>API Documentation</h2>
+        <h2>Growth Optimization</h2>
         <p>
-            HydroHaus provides an API for integration with other smart systems. Refer to the API documentation for details on endpoints and data formats.
+            Enhancing plant growth and health with optimized cultivation techniques, powered by actuators for the best possible growth environment.
         </p>
-        <code>
-            GET /api/sensors/temperature
-        </code>
+
+        <h2>Growth Monitoring</h2>
+        <p>
+            Empowering thorough plant health and growth monitoring through AI-driven image recognition.
+        </p>
+
+        <h2>AWS Dashboard</h2>
+        <p>
+            Leveraging the AWS dashboard for effective cloud-based management and insights.
+        </p>
+
+        <h2>MQTT</h2>
+        <p>
+            MQTT offers low bandwidth, communication, scalability, and efficient IoT integration with retained messages and security.
+        </p>
     </section>
 
 </body>
